@@ -1,0 +1,77 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', Ubuntu, Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Cantarell, 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+    height: 100vh;
+    background-position: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: 20px;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    /* box-shadow: 0 0 0 4px #5a01a7; */
+    /* background:#dddddd !important;
+    transition: 1.525s;
+    cursor: pointer;
+} */
+
+button:hover {
+    background:#dddddd !important;
+    transition: 1.525s ease-out;
+    cursor: pointer;
+}
+
+button:active {
+    background:#f1b101 !important;
+    transition: 0.123s;
+}
+
+#small-increment-btn {
+    background: rgb(218, 59, 157);
+}
+
+#medium-increment-btn {
+    background: rgb(120, 59, 218);
+}
+
+#big-increment-btn {
+    background: rgb(59, 123, 218);
+}
+
+#save-btn {
+    background: rgb(218, 141, 27);
+}
+
+#log-el {
+    font-weight: bold;
+    font-size: 30px
+}
